@@ -1,3 +1,30 @@
-body{
-    background-color: none;
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #228B22; /* Green background */
+    padding: 15px 30px;
 }
+
+.logo img {
+    height: 120px; 
+    width:170px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+
+
+.navbar a {
+    color: gold;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+    transition: color 0.3s;
+    margin: 20px;
+}
+
